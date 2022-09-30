@@ -70,7 +70,7 @@
          </div>
       </nav>
       <div class="container">
-         <!-- github another -->
+         
          <div class="text-center">
             <div class="col-xs-6">
                <span>好人勝場<span class="role-count good-count"></span></span><br>
@@ -83,64 +83,67 @@
                <button class="zero-hide btn-score btn btn-default btn-sm" data-role="bad" data-add="-1" style="display: none;">-1</button>
             </div>
          </div>
-         <div class="clearfix"></div>
-         <div class="progress zero-hide" style="display: none;">
-            <div class="progress-bar progress-bar-striped good-bar">
-               <span class=""></span>
+         <div style="min-height: 600px;">
+            <div class="clearfix"></div>
+            <div class="progress zero-hide" style="display: none;">
+               <div class="progress-bar progress-bar-striped good-bar">
+                  <span class=""></span>
+               </div>
+               <div class="progress-bar progress-bar-striped progress-bar-danger bad-bar">
+                  <span class=""></span>
+               </div>
             </div>
-            <div class="progress-bar progress-bar-striped progress-bar-danger bad-bar">
-               <span class=""></span>
-            </div>
-         </div>
-         <hr>
-         <div class="one-card text-center col-md-3 col-xs-6" style="height: 350px;">
-            <div class="flip-container click-card together" data-role="percival">
-               <div class="flipper">
-                  <div class="front">
-                     <img class="img-thumbnail" src="./avalon_files/percival.png">
+            <hr>
+            <div class="one-card text-center col-md-3 col-xs-6" style="height: 350px;">
+               <div class="flip-container click-card together" data-role="percival">
+                  <div class="flipper">
+                     <div class="front">
+                        <img class="img-thumbnail" src="./avalon_files/percival.png">
+                     </div>
+                     <div class="back">
+                        <img id="bind-img" class="img-thumbnail" src="./avalon_files/back.png">
+                     </div>
                   </div>
-                  <div class="back">
-                     <img id="bind-img" class="img-thumbnail" src="./avalon_files/back.png">
+               </div>
+            </div>
+            <div class="one-card text-center col-md-3 col-xs-6" style="height: 350px;">
+               <div class="flip-container click-card together" data-role="mormna">
+                  <div class="flipper">
+                     <div class="front">
+                        <img class="img-thumbnail" src="./avalon_files/mormna.png">
+                     </div>
+                     <div class="back">
+                        <img class="img-thumbnail" src="./avalon_files/back.png">
+                     </div>
+                  </div>
+               </div>
+            </div>
+            <div class="one-card text-center col-md-3 col-xs-6" style="height: 350px;">
+               <div class="flip-container click-card" data-role="oberon">
+                  <div class="flipper">
+                     <div class="front">
+                        <img class="img-thumbnail" src="./avalon_files/oberon.png">
+                     </div>
+                     <div class="back">
+                        <img class="img-thumbnail" src="./avalon_files/back.png">
+                     </div>
+                  </div>
+               </div>
+            </div>
+            <div class="one-card text-center col-md-3 col-xs-6" style="height: 350px;">
+               <div class="flip-container click-card" data-role="mordred">
+                  <div class="flipper">
+                     <div class="front">
+                        <img class="img-thumbnail" src="./avalon_files/mordred.png">
+                     </div>
+                     <div class="back">
+                        <img class="img-thumbnail" src="./avalon_files/back.png">
+                     </div>
                   </div>
                </div>
             </div>
          </div>
-         <div class="one-card text-center col-md-3 col-xs-6" style="height: 350px;">
-            <div class="flip-container click-card together" data-role="mormna">
-               <div class="flipper">
-                  <div class="front">
-                     <img class="img-thumbnail" src="./avalon_files/mormna.png">
-                  </div>
-                  <div class="back">
-                     <img class="img-thumbnail" src="./avalon_files/back.png">
-                  </div>
-               </div>
-            </div>
-         </div>
-         <div class="one-card text-center col-md-3 col-xs-6" style="height: 350px;">
-            <div class="flip-container click-card" data-role="oberon">
-               <div class="flipper">
-                  <div class="front">
-                     <img class="img-thumbnail" src="./avalon_files/oberon.png">
-                  </div>
-                  <div class="back">
-                     <img class="img-thumbnail" src="./avalon_files/back.png">
-                  </div>
-               </div>
-            </div>
-         </div>
-         <div class="one-card text-center col-md-3 col-xs-6" style="height: 350px;">
-            <div class="flip-container click-card" data-role="mordred">
-               <div class="flipper">
-                  <div class="front">
-                     <img class="img-thumbnail" src="./avalon_files/mordred.png">
-                  </div>
-                  <div class="back">
-                     <img class="img-thumbnail" src="./avalon_files/back.png">
-                  </div>
-               </div>
-            </div>
-         </div>
+         <br>
          <hr>
          <p id="sheep-text">
             <span data-count="1">請所有人閉上眼睛，低頭雙手握拳放在自己面前。</span>
